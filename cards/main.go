@@ -28,4 +28,9 @@ func main() {
 	newCards := newDeckFromFile("deck.txt")
 	fmt.Println("New Deck from File:")
 	newCards.print()
+
+	fmt.Println("--------------------")
+	fmt.Println("Shuffled Deck:")
+	newCards.shuffle()
+	newCards.print()
 }
